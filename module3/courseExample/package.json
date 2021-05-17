@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-course-example",
+  "version": "1.0.0",
+  "description": "Udemy Node js course example coding",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Ivan Gorobenko",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

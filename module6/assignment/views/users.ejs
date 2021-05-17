@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('includes/header'); -%>
+<body>
+<% if (users.length === 0){ %>
+    <div>No users</div>
+<% } else{ %>
+    <ul>
+        <% users.forEach((user) => { %>
+            <li>
+                <%= user %>
+            </li>
+        <%
+        })
+        %>
+    </ul>
+<% } %>
+</body>
+</html>
